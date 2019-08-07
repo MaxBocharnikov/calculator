@@ -14,33 +14,33 @@
         </section>
         <section class="calc__keys">
            <div class="calc__row">
-               <button class="calc__button calc__button--action calc__button--spec">AC</button>
-               <button class="calc__button calc__button--action calc__button--spec">+/-</button>
-               <button class="calc__button calc__button--action calc__button--spec">%</button>
-               <button class="calc__button calc__button--action">&divide;</button>
+               <button class="calc__button calc__button--skip">AC</button>
+               <button class="calc__button calc__button--action calc__button--spec" data-action="sign">+/-</button>
+               <button class="calc__button calc__button--action calc__button--spec" data-action="percent">%</button>
+               <button class="calc__button calc__button--action" data-action="divide">&divide;</button>
            </div>
             <div class="calc__row">
-                <button class="calc__button">7</button>
-                <button class="calc__button">8</button>
-                <button class="calc__button">9</button>
-                <button class="calc__button calc__button--action">&times;</button>
+                <button class="calc__button calc__button--numbers">7</button>
+                <button class="calc__button calc__button--numbers">8</button>
+                <button class="calc__button calc__button--numbers">9</button>
+                <button class="calc__button calc__button--action" data-action="multiply">&times;</button>
             </div>
             <div class="calc__row">
-                <button class="calc__button">4</button>
-                <button class="calc__button">5</button>
-                <button class="calc__button">6</button>
-                <button class="calc__button calc__button--action">-</button>
+                <button class="calc__button calc__button--numbers">4</button>
+                <button class="calc__button calc__button--numbers">5</button>
+                <button class="calc__button calc__button--numbers">6</button>
+                <button class="calc__button calc__button--action" data-action="minus">-</button>
             </div>
             <div class="calc__row">
-                <button class="calc__button">1</button>
-                <button class="calc__button">2</button>
-                <button class="calc__button">3</button>
-                <button class="calc__button calc__button--action">+</button>
+                <button class="calc__button calc__button--numbers">1</button>
+                <button class="calc__button calc__button--numbers">2</button>
+                <button class="calc__button calc__button--numbers">3</button>
+                <button class="calc__button calc__button--action" data-action="plus">+</button>
             </div>
             <div class="calc__row calc__row--last">
-                <button class="calc__button calc__button--zero">0</button>
-                <button class="calc__button">,</button>
-                <button class="calc__button calc__button--action">=</button>
+                <button class="calc__button calc__button--numbers calc__button--zero">0</button>
+                <button class="calc__button calc__button--action calc__button--comma" data-action="comma">,</button>
+                <button class="calc__button calc__button--action" data-action="equal">=</button>
             </div>
         </section>
     </div>
