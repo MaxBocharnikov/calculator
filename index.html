@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<article class="calc">
+    <div class="calc__wrapper">
+        <section class="calc__window">
+            <div class="calc__text">0</div>
+        </section>
+        <section class="calc__keys">
+           <div class="calc__row">
+               <button class="calc__button calc__button--action calc__button--spec">AC</button>
+               <button class="calc__button calc__button--action calc__button--spec">+/-</button>
+               <button class="calc__button calc__button--action calc__button--spec">%</button>
+               <button class="calc__button calc__button--action">&divide;</button>
+           </div>
+            <div class="calc__row">
+                <button class="calc__button">7</button>
+                <button class="calc__button">8</button>
+                <button class="calc__button">9</button>
+                <button class="calc__button calc__button--action">&times;</button>
+            </div>
+            <div class="calc__row">
+                <button class="calc__button">4</button>
+                <button class="calc__button">5</button>
+                <button class="calc__button">6</button>
+                <button class="calc__button calc__button--action">-</button>
+            </div>
+            <div class="calc__row">
+                <button class="calc__button">1</button>
+                <button class="calc__button">2</button>
+                <button class="calc__button">3</button>
+                <button class="calc__button calc__button--action">+</button>
+            </div>
+            <div class="calc__row calc__row--last">
+                <button class="calc__button calc__button--zero">0</button>
+                <button class="calc__button">,</button>
+                <button class="calc__button calc__button--action">=</button>
+            </div>
+        </section>
+    </div>
+</article>
 
+<script src="scripts/main.js"></script>
 </body>
 </html>
